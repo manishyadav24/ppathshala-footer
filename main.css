@@ -1,0 +1,286 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+footer{
+    background-color: #2D3088;
+    height: auto;
+    padding: 0px 40px 15px 40px;
+    overflow-x: hidden;
+}
+
+.main{
+    display: inline;
+}
+
+.main-text h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 10px;
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.main-text p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 20px;
+}
+
+.main-email{
+    background-color: white;
+    border-radius: 5px;
+    padding: 2px;
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.main-email input{
+    padding-left: 30px;
+    padding-right: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: rgb(252, 252, 252);
+    border: none;
+}
+
+.main-email button{
+    background-color:  #2D3088;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+}
+
+.middle{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+
+    margin-top: 60px;
+    padding: 0px 150px 0px 150px;
+}
+
+.middle-first{
+    margin-top: 0px;
+    display: grid;
+    width: 370px;
+}
+
+.middle-first h1{
+    font-weight: 300;
+    line-height: 35px;
+    margin-bottom: 10px;
+}
+
+.middle-first span{
+    font-weight: bold;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logo p{
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.middle-second{
+    display: grid; 
+}
+
+.middle-third{
+    display: grid; 
+}
+
+.middle-fourth{
+    display: grid;
+}
+
+.middle-fourth img{
+    margin-bottom: 10px;
+    filter: invert();
+    height: 20px;
+}
+
+
+.line{
+    margin-top: 50px;
+    padding: 0px 100px;
+}
+
+.footer-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+    margin-top: 15px;
+
+}
+
+
+.middle-mobile{
+    display: none;
+    margin-top: 0px;
+   
+    width: 370px;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+
+.middle-mobile h1{
+    font-weight: 300;
+    line-height: 35px;
+    margin-bottom: 10px;
+}
+
+.middle-mobile span{
+    font-weight: bold;
+}
+
+.logom{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logom p{
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+@media screen and (min-width: 300px) and (max-width: 850px) {
+    .main-text h1{
+        font-size: 1em;
+    }
+
+    .main-text p{
+        font-size: 0.7em;
+    }
+
+    .main-email{
+        width: 100%;
+        margin: 0px;
+        display: flex;
+        justify-content: space-between;
+        padding: 2px 0px 2px 2px;
+    }
+
+    .main-email input{
+        padding: 0px;
+        padding-left: 10px;
+        font-size: 0.7em;
+    }
+
+    .main-email button{
+        font-size: 0.7em;
+        margin-right: 2px;
+    }
+
+    .middle{
+        display: flex;
+        justify-content: row-reverse;
+
+        padding: 0px;
+        margin-top: 40px;
+    }
+
+    .middle-first{
+        display: none;
+    }
+
+    .middle-second{
+        font-size: 0.7em;
+    }
+
+    .middle-third{
+        font-size: 0.7em;
+    }
+
+    .middle-fourth img{
+        height: 1em;
+    }
+
+    .line{
+        margin: 40px 0px 0px 0px;
+        padding: 0px;
+    }
+
+    .footer-text{
+        font-size: 0.7em;
+    }
+
+    .middle-mobile{
+        display: grid;
+        width: auto;
+    }
+
+
+
+
+.middle-mobile h1{
+    margin-top: 35px;
+    font-size: 1.5em;
+    line-height: 29px;
+    margin-bottom: 10px;
+    
+}
+
+.middle-mobile p{
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+
+
+
+.logom{
+    height:21px;
+    display: flex;
+    justify-content: row;
+    align-items: center;
+}
+
+.logom p{
+    font-size: 00.8em;
+    margin: 20px;
+}
+
+
+  }
